@@ -2,7 +2,9 @@
 leran nodeJS and coding some demo
 
 1、基于commonJs 规范，实现模块管理系统
+
 2、npm包管理工具
+
 3、控制并发
 async  控制并发
 async(https://github.com/caolan/async ) 的使用
@@ -19,9 +21,11 @@ main.js: 其中有个 fibonacci 函数。fibonacci 的介绍见：http://en.wiki
 	1. 学习使用测试框架 mocha : http://mochajs.org/
 	2. 学习使用断言库 should : https://github.com/tj/should.js
 	3. 学习使用测试率覆盖工具 istanbul : https://github.com/gotwarlost/istanbul
-	简单 Makefile 的编写 : http://blog.csdn.net/haoel/article/details/2886
-	
+	4.简单 Makefile 的编写 : http://blog.csdn.net/haoel/article/details/2886
 5、nodemon  node监控代码变化自动重启
+
 6、《正则表达式30分钟入门教程》：http://deerchao.net/tutorials/regex/regex.htm
+
 7、《正则表达式之：零宽断言不『消费』》：http://fxck.it/post/50558232873
+
 8、s 中的正则表达式与 pcre(http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions ) 的区别
