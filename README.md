@@ -22,6 +22,7 @@ main.js: 其中有个 fibonacci 函数。fibonacci 的介绍见：http://en.wiki
 	2. 学习使用断言库 should : https://github.com/tj/should.js
 	3. 学习使用测试率覆盖工具 istanbul : https://github.com/gotwarlost/istanbul
 	4.简单 Makefile 的编写 : http://blog.csdn.net/haoel/article/details/2886
+	
 5、nodemon  node监控代码变化自动重启
 
 6、《正则表达式30分钟入门教程》：http://deerchao.net/tutorials/regex/regex.htm
