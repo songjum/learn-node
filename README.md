@@ -30,3 +30,6 @@ main.js: 其中有个 fibonacci 函数。fibonacci 的介绍见：http://en.wiki
 7、《正则表达式之：零宽断言不『消费』》：http://fxck.it/post/50558232873
 
 8、s 中的正则表达式与 pcre(http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions ) 的区别
+
+9、supertest 是 superagent 的孪生库。他的作者叫 tj-----------     http://tour.golang.org     https:github.com/tj
+

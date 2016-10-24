@@ -122,5 +122,5 @@ app.get ('/',function(req,res,next){
 
 
 app.listen(3000,function(req,res){
-	console.log('runnig');
+	console.log('runnig some test');
 })
