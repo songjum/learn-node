@@ -1,0 +1,460 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'iphone-inline-video' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData iphone-inline-video
+8 silly fetchNamedPackageData iphone-inline-video
+9 silly mapToRegistry name iphone-inline-video
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'iphone-inline-video',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'iphone-inline-video',
+12 silly mapToRegistry   name: 'iphone-inline-video',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/iphone-inline-video
+14 verbose request uri https://registry.npmjs.org/iphone-inline-video
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:40:53
+17 verbose request id 3903446900ab5cd6
+18 verbose etag "4EDVCHOGT978ZQO981QDYXN6O"
+19 http request GET https://registry.npmjs.org/iphone-inline-video
+20 http 304 https://registry.npmjs.org/iphone-inline-video
+21 verbose headers { date: 'Tue, 08 Nov 2016 03:40:54 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"4EDVCHOGT978ZQO981QDYXN6O"',
+21 verbose headers   age: '57',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1478576454.907670,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 08 Nov 2016 03:40:54 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"4EDVCHOGT978ZQO981QDYXN6O"',
+22 silly get     age: '57',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-itm7424-ITM',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1478576454.907670,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/iphone-inline-video from cache
+24 verbose get saving iphone-inline-video to /Users/baidu/.npm/registry.npmjs.org/iphone-inline-video/.cache.json
+25 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule iphone-inline-video@1.9.4 checking installable status
+39 silly cache add args [ 'iphone-inline-video', null ]
+40 verbose cache add spec iphone-inline-video
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'iphone-inline-video',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'iphone-inline-video',
+41 silly cache add   name: 'iphone-inline-video',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed iphone-inline-video@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for iphone-inline-video
+44 info addNameTag [ 'iphone-inline-video', 'latest' ]
+45 silly mapToRegistry name iphone-inline-video
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'iphone-inline-video',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'iphone-inline-video',
+48 silly mapToRegistry   name: 'iphone-inline-video',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/iphone-inline-video
+50 verbose addNameTag registry:https://registry.npmjs.org/iphone-inline-video not in flight; fetching
+51 verbose get https://registry.npmjs.org/iphone-inline-video not expired, no request
+52 silly addNameTag next cb for iphone-inline-video with tag latest
+53 silly addNamed iphone-inline-video@1.9.4
+54 verbose addNamed "1.9.4" is a plain semver version for iphone-inline-video
+55 silly cache afterAdd iphone-inline-video@1.9.4
+56 verbose afterAdd /Users/baidu/.npm/iphone-inline-video/1.9.4/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/baidu/.npm/iphone-inline-video/1.9.4/package/package.json written
+59 silly fetchNamedPackageData intervalometer
+60 silly mapToRegistry name intervalometer
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'intervalometer',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'intervalometer',
+63 silly mapToRegistry   name: 'intervalometer',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/intervalometer
+65 silly fetchNamedPackageData poor-mans-symbol
+66 silly mapToRegistry name poor-mans-symbol
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'poor-mans-symbol',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'poor-mans-symbol',
+69 silly mapToRegistry   name: 'poor-mans-symbol',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/poor-mans-symbol
+71 verbose request uri https://registry.npmjs.org/intervalometer
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 11:40:55
+74 http request GET https://registry.npmjs.org/intervalometer
+75 verbose request uri https://registry.npmjs.org/poor-mans-symbol
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 11:40:55
+78 http request GET https://registry.npmjs.org/poor-mans-symbol
+79 http 200 https://registry.npmjs.org/intervalometer
+80 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+80 verbose headers   etag: '"2RVZ6NUVH5AJ016MQ344LKXVA"',
+80 verbose headers   'content-type': 'application/json',
+80 verbose headers   'content-encoding': 'gzip',
+80 verbose headers   'cache-control': 'max-age=300',
+80 verbose headers   'content-length': '2356',
+80 verbose headers   'accept-ranges': 'bytes',
+80 verbose headers   date: 'Tue, 08 Nov 2016 03:40:55 GMT',
+80 verbose headers   via: '1.1 varnish',
+80 verbose headers   age: '0',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+80 verbose headers   'x-cache': 'MISS',
+80 verbose headers   'x-cache-hits': '0',
+80 verbose headers   'x-timer': 'S1478576455.161984,VS0,VE202',
+80 verbose headers   vary: 'Accept-Encoding' }
+81 silly get cb [ 200,
+81 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+81 silly get     etag: '"2RVZ6NUVH5AJ016MQ344LKXVA"',
+81 silly get     'content-type': 'application/json',
+81 silly get     'content-encoding': 'gzip',
+81 silly get     'cache-control': 'max-age=300',
+81 silly get     'content-length': '2356',
+81 silly get     'accept-ranges': 'bytes',
+81 silly get     date: 'Tue, 08 Nov 2016 03:40:55 GMT',
+81 silly get     via: '1.1 varnish',
+81 silly get     age: '0',
+81 silly get     connection: 'keep-alive',
+81 silly get     'x-served-by': 'cache-itm7424-ITM',
+81 silly get     'x-cache': 'MISS',
+81 silly get     'x-cache-hits': '0',
+81 silly get     'x-timer': 'S1478576455.161984,VS0,VE202',
+81 silly get     vary: 'Accept-Encoding' } ]
+82 verbose get saving intervalometer to /Users/baidu/.npm/registry.npmjs.org/intervalometer/.cache.json
+83 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+84 silly resolveWithNewModule intervalometer@1.0.2 checking installable status
+85 silly cache add args [ 'intervalometer@^1.0.0', null ]
+86 verbose cache add spec intervalometer@^1.0.0
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'intervalometer@^1.0.0',
+87 silly cache add   scope: null,
+87 silly cache add   escapedName: 'intervalometer',
+87 silly cache add   name: 'intervalometer',
+87 silly cache add   rawSpec: '^1.0.0',
+87 silly cache add   spec: '>=1.0.0 <2.0.0',
+87 silly cache add   type: 'range' }
+88 silly addNamed intervalometer@>=1.0.0 <2.0.0
+89 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for intervalometer
+90 silly addNameRange { name: 'intervalometer',
+90 silly addNameRange   range: '>=1.0.0 <2.0.0',
+90 silly addNameRange   hasData: false }
+91 silly mapToRegistry name intervalometer
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'intervalometer',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'intervalometer',
+94 silly mapToRegistry   name: 'intervalometer',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/intervalometer
+96 verbose addNameRange registry:https://registry.npmjs.org/intervalometer not in flight; fetching
+97 verbose get https://registry.npmjs.org/intervalometer not expired, no request
+98 silly addNameRange number 2 { name: 'intervalometer',
+98 silly addNameRange   range: '>=1.0.0 <2.0.0',
+98 silly addNameRange   hasData: true }
+99 silly addNameRange versions [ 'intervalometer', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+100 silly addNamed intervalometer@1.0.2
+101 verbose addNamed "1.0.2" is a plain semver version for intervalometer
+102 silly mapToRegistry name intervalometer
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'intervalometer',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'intervalometer',
+105 silly mapToRegistry   name: 'intervalometer',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/intervalometer
+107 verbose addRemoteTarball https://registry.npmjs.org/intervalometer/-/intervalometer-1.0.2.tgz not in flight; adding
+108 verbose addRemoteTarball [ 'https://registry.npmjs.org/intervalometer/-/intervalometer-1.0.2.tgz',
+108 verbose addRemoteTarball   '7c08f4ac07bd8876f9378fb4c74ff9b40e87d4be' ]
+109 info retry fetch attempt 1 at 11:40:55
+110 info attempt registry request try #1 at 11:40:55
+111 http fetch GET https://registry.npmjs.org/intervalometer/-/intervalometer-1.0.2.tgz
+112 http 200 https://registry.npmjs.org/poor-mans-symbol
+113 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+113 verbose headers   etag: '"B9LXA0C6GEJN20KNOHPGR16O0"',
+113 verbose headers   'content-type': 'application/json',
+113 verbose headers   'content-encoding': 'gzip',
+113 verbose headers   'cache-control': 'max-age=300',
+113 verbose headers   'content-length': '1813',
+113 verbose headers   'accept-ranges': 'bytes',
+113 verbose headers   date: 'Tue, 08 Nov 2016 03:40:55 GMT',
+113 verbose headers   via: '1.1 varnish',
+113 verbose headers   age: '0',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+113 verbose headers   'x-cache': 'MISS',
+113 verbose headers   'x-cache-hits': '0',
+113 verbose headers   'x-timer': 'S1478576455.521108,VS0,VE133',
+113 verbose headers   vary: 'Accept-Encoding' }
+114 silly get cb [ 200,
+114 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+114 silly get     etag: '"B9LXA0C6GEJN20KNOHPGR16O0"',
+114 silly get     'content-type': 'application/json',
+114 silly get     'content-encoding': 'gzip',
+114 silly get     'cache-control': 'max-age=300',
+114 silly get     'content-length': '1813',
+114 silly get     'accept-ranges': 'bytes',
+114 silly get     date: 'Tue, 08 Nov 2016 03:40:55 GMT',
+114 silly get     via: '1.1 varnish',
+114 silly get     age: '0',
+114 silly get     connection: 'keep-alive',
+114 silly get     'x-served-by': 'cache-itm7423-ITM',
+114 silly get     'x-cache': 'MISS',
+114 silly get     'x-cache-hits': '0',
+114 silly get     'x-timer': 'S1478576455.521108,VS0,VE133',
+114 silly get     vary: 'Accept-Encoding' } ]
+115 verbose get saving poor-mans-symbol to /Users/baidu/.npm/registry.npmjs.org/poor-mans-symbol/.cache.json
+116 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+117 silly resolveWithNewModule poor-mans-symbol@1.0.1 checking installable status
+118 silly cache add args [ 'poor-mans-symbol@^1.0.1', null ]
+119 verbose cache add spec poor-mans-symbol@^1.0.1
+120 silly cache add parsed spec Result {
+120 silly cache add   raw: 'poor-mans-symbol@^1.0.1',
+120 silly cache add   scope: null,
+120 silly cache add   escapedName: 'poor-mans-symbol',
+120 silly cache add   name: 'poor-mans-symbol',
+120 silly cache add   rawSpec: '^1.0.1',
+120 silly cache add   spec: '>=1.0.1 <2.0.0',
+120 silly cache add   type: 'range' }
+121 silly addNamed poor-mans-symbol@>=1.0.1 <2.0.0
+122 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for poor-mans-symbol
+123 silly addNameRange { name: 'poor-mans-symbol',
+123 silly addNameRange   range: '>=1.0.1 <2.0.0',
+123 silly addNameRange   hasData: false }
+124 silly mapToRegistry name poor-mans-symbol
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry data Result {
+127 silly mapToRegistry   raw: 'poor-mans-symbol',
+127 silly mapToRegistry   scope: null,
+127 silly mapToRegistry   escapedName: 'poor-mans-symbol',
+127 silly mapToRegistry   name: 'poor-mans-symbol',
+127 silly mapToRegistry   rawSpec: '',
+127 silly mapToRegistry   spec: 'latest',
+127 silly mapToRegistry   type: 'tag' }
+128 silly mapToRegistry uri https://registry.npmjs.org/poor-mans-symbol
+129 verbose addNameRange registry:https://registry.npmjs.org/poor-mans-symbol not in flight; fetching
+130 verbose get https://registry.npmjs.org/poor-mans-symbol not expired, no request
+131 silly addNameRange number 2 { name: 'poor-mans-symbol',
+131 silly addNameRange   range: '>=1.0.1 <2.0.0',
+131 silly addNameRange   hasData: true }
+132 silly addNameRange versions [ 'poor-mans-symbol', [ '1.0.0', '1.0.1' ] ]
+133 silly addNamed poor-mans-symbol@1.0.1
+134 verbose addNamed "1.0.1" is a plain semver version for poor-mans-symbol
+135 silly mapToRegistry name poor-mans-symbol
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'poor-mans-symbol',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   escapedName: 'poor-mans-symbol',
+138 silly mapToRegistry   name: 'poor-mans-symbol',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/poor-mans-symbol
+140 verbose addRemoteTarball https://registry.npmjs.org/poor-mans-symbol/-/poor-mans-symbol-1.0.1.tgz not in flight; adding
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/poor-mans-symbol/-/poor-mans-symbol-1.0.1.tgz',
+141 verbose addRemoteTarball   '0c1b65ff1d49c07402b2235e562077d120671d0c' ]
+142 info retry fetch attempt 1 at 11:40:55
+143 info attempt registry request try #1 at 11:40:55
+144 http fetch GET https://registry.npmjs.org/poor-mans-symbol/-/poor-mans-symbol-1.0.1.tgz
+145 http fetch 200 https://registry.npmjs.org/intervalometer/-/intervalometer-1.0.2.tgz
+146 silly fetchAndShaCheck shasum 7c08f4ac07bd8876f9378fb4c74ff9b40e87d4be
+147 verbose addTmpTarball /var/folders/sc/rpg0yq054hb7vdr83ms1rp2w0000gn/T/npm-4599-fcf0cdfe/registry.npmjs.org/intervalometer/-/intervalometer-1.0.2.tgz not in flight; adding
+148 verbose addTmpTarball already have metadata; skipping unpack for intervalometer@1.0.2
+149 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+150 silly cache afterAdd intervalometer@1.0.2
+151 verbose afterAdd /Users/baidu/.npm/intervalometer/1.0.2/package/package.json not in flight; writing
+152 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+153 verbose afterAdd /Users/baidu/.npm/intervalometer/1.0.2/package/package.json written
+154 http fetch 200 https://registry.npmjs.org/poor-mans-symbol/-/poor-mans-symbol-1.0.1.tgz
+155 silly fetchAndShaCheck shasum 0c1b65ff1d49c07402b2235e562077d120671d0c
+156 verbose addTmpTarball /var/folders/sc/rpg0yq054hb7vdr83ms1rp2w0000gn/T/npm-4599-fcf0cdfe/registry.npmjs.org/poor-mans-symbol/-/poor-mans-symbol-1.0.1.tgz not in flight; adding
+157 verbose addTmpTarball already have metadata; skipping unpack for poor-mans-symbol@1.0.1
+158 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+159 silly cache afterAdd poor-mans-symbol@1.0.1
+160 verbose afterAdd /Users/baidu/.npm/poor-mans-symbol/1.0.1/package/package.json not in flight; writing
+161 verbose correctMkdir /Users/baidu/.npm correctMkdir not in flight; initializing
+162 verbose afterAdd /Users/baidu/.npm/poor-mans-symbol/1.0.1/package/package.json written
+163 silly loadAllDepsIntoIdealTree Finishing
+164 silly loadIdealTree Finishing
+165 silly currentTree lessonn@1.0.0
+165 silly currentTree ├── accepts@1.3.3
+165 silly currentTree ├── array-flatten@1.1.1
+165 silly currentTree ├── content-disposition@0.5.1
+165 silly currentTree ├── content-type@1.0.2
+165 silly currentTree ├── cookie-signature@1.0.6
+165 silly currentTree ├── cookie@0.3.1
+165 silly currentTree ├── copy-to@2.0.1
+165 silly currentTree ├── debug@2.2.0
+165 silly currentTree ├── depd@1.1.0
+165 silly currentTree ├── destroy@1.0.4
+165 silly currentTree ├── ee-first@1.1.1
+165 silly currentTree ├── encodeurl@1.0.1
+165 silly currentTree ├── escape-html@1.0.3
+165 silly currentTree ├── etag@1.7.0
+165 silly currentTree ├── express@4.14.0
+165 silly currentTree ├── finalhandler@0.5.0
+165 silly currentTree ├── forwarded@0.1.0
+165 silly currentTree ├── fresh@0.3.0
+165 silly currentTree ├── http-errors@1.5.0
+165 silly currentTree ├── inherits@2.0.1
+165 silly currentTree ├── ipaddr.js@1.1.1
+165 silly currentTree ├── media-typer@0.3.0
+165 silly currentTree ├── merge-descriptors@1.0.1
+165 silly currentTree ├── methods@1.1.2
+165 silly currentTree ├── mime-db@1.24.0
+165 silly currentTree ├── mime-types@2.1.12
+165 silly currentTree ├── mime@1.3.4
+165 silly currentTree ├── ms@0.7.1
+165 silly currentTree ├── negotiator@0.6.1
+165 silly currentTree ├── on-finished@2.3.0
+165 silly currentTree ├── parseurl@1.3.1
+165 silly currentTree ├── path-to-regexp@0.1.7
+165 silly currentTree ├── proxy-addr@1.1.2
+165 silly currentTree ├── qs@6.2.0
+165 silly currentTree ├── range-parser@1.2.0
+165 silly currentTree ├── send@0.14.1
+165 silly currentTree ├── serve-static@1.11.1
+165 silly currentTree ├── setprototypeof@1.0.1
+165 silly currentTree ├── statuses@1.3.0
+165 silly currentTree ├── type-is@1.6.13
+165 silly currentTree ├── unpipe@1.0.0
+165 silly currentTree ├── utility@1.8.0
+165 silly currentTree ├── utils-merge@1.0.0
+165 silly currentTree └── vary@1.1.0
+166 silly idealTree lessonn@1.0.0
+166 silly idealTree ├── accepts@1.3.3
+166 silly idealTree ├── array-flatten@1.1.1
+166 silly idealTree ├── content-disposition@0.5.1
+166 silly idealTree ├── content-type@1.0.2
+166 silly idealTree ├── cookie-signature@1.0.6
+166 silly idealTree ├── cookie@0.3.1
+166 silly idealTree ├── copy-to@2.0.1
+166 silly idealTree ├── debug@2.2.0
+166 silly idealTree ├── depd@1.1.0
+166 silly idealTree ├── destroy@1.0.4
+166 silly idealTree ├── ee-first@1.1.1
+166 silly idealTree ├── encodeurl@1.0.1
+166 silly idealTree ├── escape-html@1.0.3
+166 silly idealTree ├── etag@1.7.0
+166 silly idealTree ├── express@4.14.0
+166 silly idealTree ├── finalhandler@0.5.0
+166 silly idealTree ├── forwarded@0.1.0
+166 silly idealTree ├── fresh@0.3.0
+166 silly idealTree ├── http-errors@1.5.0
+166 silly idealTree ├── inherits@2.0.1
+166 silly idealTree ├── intervalometer@1.0.2
+166 silly idealTree ├── ipaddr.js@1.1.1
+166 silly idealTree ├── iphone-inline-video@1.9.4
+166 silly idealTree ├── media-typer@0.3.0
+166 silly idealTree ├── merge-descriptors@1.0.1
+166 silly idealTree ├── methods@1.1.2
+166 silly idealTree ├── mime-db@1.24.0
+166 silly idealTree ├── mime-types@2.1.12
+166 silly idealTree ├── mime@1.3.4
+166 silly idealTree ├── ms@0.7.1
+166 silly idealTree ├── negotiator@0.6.1
+166 silly idealTree ├── on-finished@2.3.0
+166 silly idealTree ├── parseurl@1.3.1
+166 silly idealTree ├── path-to-regexp@0.1.7
+166 silly idealTree ├── poor-mans-symbol@1.0.1
+166 silly idealTree ├── proxy-addr@1.1.2
+166 silly idealTree ├── qs@6.2.0
+166 silly idealTree ├── range-parser@1.2.0
+166 silly idealTree ├── send@0.14.1
+166 silly idealTree ├── serve-static@1.11.1
+166 silly idealTree ├── setprototypeof@1.0.1
+166 silly idealTree ├── statuses@1.3.0
+166 silly idealTree ├── type-is@1.6.13
+166 silly idealTree ├── unpipe@1.0.0
+166 silly idealTree ├── utility@1.8.0
+166 silly idealTree ├── utils-merge@1.0.0
+166 silly idealTree └── vary@1.1.0
+167 silly generateActionsToTake Starting
+168 silly install generateActionsToTake
+169 warn checkPermissions Missing write access to /Users/baidu/work/songjum/learn-node/lesson2/node_modules
+170 silly rollbackFailedOptional Starting
+171 silly rollbackFailedOptional Finishing
+172 silly runTopLevelLifecycles Starting
+173 silly runTopLevelLifecycles Finishing
+174 silly install printInstalled
+175 verbose stack Error: EACCES: permission denied, access '/Users/baidu/work/songjum/learn-node/lesson2/node_modules'
+175 verbose stack     at Error (native)
+176 verbose cwd /Users/baidu/work/songjum/learn-node/lesson2
+177 error Darwin 16.0.0
+178 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "iphone-inline-video"
+179 error node v6.3.0
+180 error npm  v3.10.3
+181 error path /Users/baidu/work/songjum/learn-node/lesson2/node_modules
+182 error code EACCES
+183 error errno -13
+184 error syscall access
+185 error Error: EACCES: permission denied, access '/Users/baidu/work/songjum/learn-node/lesson2/node_modules'
+185 error     at Error (native)
+185 error  { Error: EACCES: permission denied, access '/Users/baidu/work/songjum/learn-node/lesson2/node_modules'
+185 error     at Error (native)
+185 error   errno: -13,
+185 error   code: 'EACCES',
+185 error   syscall: 'access',
+185 error   path: '/Users/baidu/work/songjum/learn-node/lesson2/node_modules' }
+186 error Please try running this command again as root/Administrator.
+187 verbose exit [ -13, true ]
